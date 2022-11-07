@@ -4,6 +4,10 @@
 Soooo... Vuetify just released version 3.. Nuxt is at rc13 (will be released soon).
 This template here will get you up & running with adding the two together :)
 
+
+## Demo Here
+
+[Online Demo](https://vuetify3nuxt3starter.behonbaker.com)
 ### Run the app
 
 1. Install the deps
