@@ -9,12 +9,12 @@
 		"postinstall": "nuxt prepare"
 	},
 	"devDependencies": {
-		"@kevinmarrec/nuxt-pwa": "^0.9.1",
+		"@kevinmarrec/nuxt-pwa": "^0.11.1",
 		"@nuxtjs/google-fonts": "^2.0.0",
-		"nuxt": "3.0.0-rc.13",
+		"nuxt": "3.0.0",
 		"nuxt-icon": "^0.1.7",
-		"sass": "^1.56.0",
-		"vuetify": "^3.0.0"
+		"sass": "^1.56.1",
+		"vuetify": "^3.0.1"
 	},
 	"dependencies": {
 		"vite-plugin-vuetify": "^1.0.0"
