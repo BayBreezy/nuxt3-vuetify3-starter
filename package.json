@@ -12,9 +12,9 @@
 		"@kevinmarrec/nuxt-pwa": "^0.13.0",
 		"@nuxtjs/google-fonts": "^3.0.0-1",
 		"nuxt": "3.0.0",
-		"nuxt-icon": "^0.1.7",
+		"nuxt-icon": "^0.1.8",
 		"sass": "^1.56.1",
-		"vuetify": "^3.0.2"
+		"vuetify": "^3.0.3"
 	},
 	"dependencies": {
 		"vite-plugin-vuetify": "^1.0.0"
