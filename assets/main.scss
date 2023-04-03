@@ -1,5 +1,5 @@
-$family: "Inter var", "Inter", apple-system, BlinkMacSystemFont, "Segoe UI",
-  Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$family: "Inter var", "Inter", apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+  Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 @use "vuetify" with (
   $body-font-family: $family
@@ -12,6 +12,12 @@ $family: "Inter var", "Inter", apple-system, BlinkMacSystemFont, "Segoe UI",
   :root {
     font-family: "Inter var", sans-serif;
   }
+}
+
+// Reset link styles
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 // Override the textfield's radius
