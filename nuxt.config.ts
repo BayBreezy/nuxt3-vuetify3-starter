@@ -18,10 +18,10 @@ export default defineNuxtConfig({
   modules: [
     "@kevinmarrec/nuxt-pwa",
     async (options, nuxt) => {
-      nuxt.hooks.hook("vite:extendConfig", (config) =>
-        // @ts-ignore
+      nuxt.hooks.hook("vite:extendConfig", (config) => {        
+        config.plugins ||= []
         config.plugins.push(vuetify())
-      );
+      });
     },
   ],
 
