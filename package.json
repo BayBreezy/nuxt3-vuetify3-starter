@@ -11,10 +11,11 @@
   "devDependencies": {
     "@iconify/vue": "^4.1.1",
     "@kevinmarrec/nuxt-pwa": "^0.17.0",
-    "@nuxtjs/google-fonts": "^3.0.0",
-    "nuxt": "3.4.2",
-    "sass": "^1.62.0",
-    "vuetify": "^3.1.15"
+    "@nuxt/devtools": "^0.8.5",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "nuxt": "3.7.4",
+    "sass": "^1.68.0",
+    "vuetify": "^3.3.19"
   },
   "dependencies": {
     "vite-plugin-vuetify": "^1.0.2"
