@@ -3,8 +3,7 @@ import vuetify from "vite-plugin-vuetify";
 // PWA Config
 const title = "Vuetify 3 + Nuxt 3 Starter";
 const shortTitle = "Vuetify 3 + Nuxt 3 Starter";
-const description =
-  "Template to get you up and running with Nuxt 3 & Vuetify 3";
+const description = "Template to get you up and running with Nuxt 3 & Vuetify 3";
 const image = "https://vuetify3nuxt3starter.behonbaker.com/starter.png";
 const url = "https://vuetify3nuxt3starter.behonbaker.com/";
 
@@ -12,15 +11,16 @@ const url = "https://vuetify3nuxt3starter.behonbaker.com/";
 export default defineNuxtConfig({
   // import styles
   css: ["@/assets/main.scss"],
+  devtools: { enabled: true },
   // enable takeover mode
   typescript: { shim: false },
   build: { transpile: ["vuetify"] },
   modules: [
     "@kevinmarrec/nuxt-pwa",
     async (options, nuxt) => {
-      nuxt.hooks.hook("vite:extendConfig", (config) => {        
-        config.plugins ||= []
-        config.plugins.push(vuetify())
+      nuxt.hooks.hook("vite:extendConfig", (config) => {
+        config.plugins ||= [];
+        config.plugins.push(vuetify());
       });
     },
   ],
