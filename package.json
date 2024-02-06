@@ -2,6 +2,9 @@
   "name": "nuxt3-vuetify3-starter",
   "private": false,
   "license": "MIT",
+  "engines": {
+    "node": ">=18.x"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
