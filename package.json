@@ -19,7 +19,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "nuxt": "3.11.1",
     "sass": "^1.72.0",
-    "vuetify": "^3.5.11"
+    "vuetify": "^3.5.13"
   },
   "dependencies": {
     "vite-plugin-vuetify": "^2.0.3"
