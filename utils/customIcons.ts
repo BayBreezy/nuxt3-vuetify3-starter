@@ -1,4 +1,3 @@
-import { h } from "vue";
 import type { IconSet, IconAliases, IconProps } from "vuetify";
 import { Icon } from "@iconify/vue";
 
@@ -39,6 +38,7 @@ const aliases: IconAliases = {
   minus: "ph:minus",
   sortAsc: "ph:sort-ascending",
   sortDesc: "ph:sort-descending",
+  calendar: "ph:calendar",
 };
 
 const custom: IconSet = {
