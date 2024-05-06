@@ -1,4 +1,4 @@
-import { ThemeDefinition } from "vuetify";
+import type { ThemeDefinition } from "vuetify";
 
 // String that represents the name of the theme I am using
 export const LIGHT_THEME = "light";
