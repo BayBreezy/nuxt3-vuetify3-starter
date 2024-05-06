@@ -1,4 +1,4 @@
-import vuetify from "vite-plugin-vuetify";
+import vuetify, { transformAssetUrls } from "vite-plugin-vuetify";
 
 // PWA Config
 const title = "Vuetify 3 + Nuxt 3 Starter";
@@ -15,6 +15,14 @@ export default defineNuxtConfig({
   // enable takeover mode
   typescript: { shim: false },
   build: { transpile: ["vuetify"] },
+  // Based on docs found here - https://vuetifyjs.com/en/getting-started/installation/#using-nuxt-3
+  vite: {
+    vue: {
+      template: {
+        transformAssetUrls,
+      },
+    },
+  },
   modules: [
     "@kevinmarrec/nuxt-pwa",
     async (options, nuxt) => {
