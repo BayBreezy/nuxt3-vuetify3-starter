@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
+    "@vite-pwa/nuxt",
     async (options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) => {
         config.plugins ||= [];
@@ -98,6 +99,44 @@ export default defineNuxtConfig({
           hid: "twitter:image",
           name: "twitter:image",
           content: image,
+        },
+      ],
+    },
+  },
+
+  pwa: {
+    includeAssets: ["favicon.ico", "robots.txt"],
+    manifest: {
+      name: shortTitle,
+      short_name: shortTitle,
+      description: description,
+      theme_color: themeColor,
+      lang: "en",
+      background_color: "#ffffff",
+      icons: [
+        {
+          src: "/icons/pwa-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
+          purpose: "any",
+        },
+        {
+          src: "/icons/pwa-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "any",
+        },
+        {
+          src: "/icons/pwa-maskable-192x192.png",
+          sizes: "192x192",
+          type: "image/png",
+          purpose: "maskable",
+        },
+        {
+          src: "/icons/pwa-maskable-512x512.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "maskable",
         },
       ],
     },
