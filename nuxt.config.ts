@@ -6,6 +6,8 @@ const shortTitle = "Vuetify 3 + Nuxt 3 Starter";
 const description = "Template to get you up and running with Nuxt 3 & Vuetify 3";
 const image = "https://vuetify3nuxt3starter.behonbaker.com/starter.png";
 const url = "https://vuetify3nuxt3starter.behonbaker.com/";
+const author = "Behon Baker";
+const themeColor = "#4f46e5";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
@@ -24,7 +26,6 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    "@kevinmarrec/nuxt-pwa",
     async (options, nuxt) => {
       nuxt.hooks.hook("vite:extendConfig", (config) => {
         config.plugins ||= [];
@@ -99,21 +100,6 @@ export default defineNuxtConfig({
           content: image,
         },
       ],
-    },
-  },
-
-  pwa: {
-    meta: {
-      name: shortTitle,
-      author: "Behon Baker",
-      theme_color: "#4f46e5",
-      description: description,
-    },
-    manifest: {
-      name: shortTitle,
-      short_name: shortTitle,
-      theme_color: "#4f46e5",
-      description: description,
     },
   },
 });
