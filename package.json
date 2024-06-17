@@ -18,7 +18,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@vite-pwa/nuxt": "^0.8.0",
     "nuxt": "3.12.2",
-    "sass": "^1.77.4",
+    "sass": "^1.77.6",
     "vuetify": "^3.6.9"
   },
   "dependencies": {
