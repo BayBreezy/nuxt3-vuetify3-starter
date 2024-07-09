@@ -43,7 +43,7 @@ npm run dev
 - Nuxt Icon
 - Sass
 - Vuetify
-- kevinmarrec/nuxt-pwa
+- [@vite-pwa/nuxt](https://github.com/vite-pwa/nuxt)
 - Vite Plugin Vuetify
 
 ### Custom Sass File
