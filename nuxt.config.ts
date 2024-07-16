@@ -13,10 +13,14 @@ const themeColor = "#4f46e5";
 export default defineNuxtConfig({
   // import styles
   css: ["@/assets/main.scss"],
+
   devtools: { enabled: true },
+
   // enable takeover mode
   typescript: { shim: false },
+
   build: { transpile: ["vuetify"] },
+
   // Based on docs found here - https://vuetifyjs.com/en/getting-started/installation/#using-nuxt-3
   vite: {
     vue: {
@@ -25,6 +29,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   modules: [
     "@vite-pwa/nuxt",
     async (options, nuxt) => {
@@ -141,4 +146,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: "2024-07-15",
 });
