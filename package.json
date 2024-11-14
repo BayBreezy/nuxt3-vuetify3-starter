@@ -22,6 +22,8 @@
     "vuetify": "^3.7.4"
   },
   "dependencies": {
-    "vite-plugin-vuetify": "^2.0.4"
+    "vite-plugin-vuetify": "^2.0.4",
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }
