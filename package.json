@@ -14,11 +14,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify/vue": "^4.2.0",
+    "@iconify/vue": "^4.3.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@vite-pwa/nuxt": "^0.10.6",
-    "nuxt": "3.15.0",
-    "sass": "^1.83.0",
+    "nuxt": "3.15.1",
+    "sass": "^1.83.1",
     "vuetify": "^3.7.6"
   },
   "dependencies": {
