@@ -19,7 +19,7 @@
     "@vite-pwa/nuxt": "^0.10.6",
     "nuxt": "3.15.1",
     "sass": "^1.83.1",
-    "vuetify": "^3.7.6"
+    "vuetify": "^3.7.9"
   },
   "dependencies": {
     "vite-plugin-vuetify": "^2.0.4",
